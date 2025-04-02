@@ -1,0 +1,12 @@
+/* Add text shadow effect to the heading */
+.text-shadow-lg {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 25px rgba(255, 255, 255, 0.8);
+  }
+  
+  #pageTitle {
+    font-family: 'Cinzel', serif; /* Apply Cinzel font to heading */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff; /* White text color */
+  }
+  

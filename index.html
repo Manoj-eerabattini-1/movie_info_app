@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Search Application</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <!-- Container -->
+  <div class="max-w-4xl mx-auto p-6">
+
+    <!-- Heading -->
+    <h1 class="text-center text-4xl font-bold text-white my-8 text-shadow-lg" id="pageTitle">Search Movies and TV Shows</h1>
+
+    <!-- Search Bar -->
+    <div class="mb-6 flex">
+      <input type="text" id="searchBar" class="w-full p-3 bg-gray-800 text-gray-100 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Search for a movie or TV show..." aria-label="Search for a media">
+      <button id="searchButton" class="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-lg ml-4 shadow-md">
+        Search
+      </button>
+    </div>
+
+    <!-- Media Details -->
+<div id="mediaDetails" class="mt-6">
+    <!-- Card with Media Info -->
+    <div id="mediaCard" class="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <div class="flex flex-col md:flex-row items-center md:items-start">
+        <!-- Image or Placeholder -->
+        <div id="imagePlaceholder" class="w-full md:w-48 md:h-72 bg-gray-600 rounded-lg flex items-center justify-center">
+          <!-- Initially blank placeholder -->
+        </div>
+        
+        <div class="ml-0 md:ml-6 flex-1 text-center md:text-left">
+          <h5 id="mediaTitle" class="text-3xl font-bold text-white"></h5>
+          <p id="mediaPlot" class="mt-3 text-lg text-gray-300"></p>
+          <p id="mediaGenre" class="mt-3 text-md text-gray-400"></p>
+          <p id="mediaYear" class="mt-2 text-md text-gray-400"></p>
+          <p id="mediaRating" class="mt-2 text-md text-yellow-400"></p>
+          <p id="mediaCast" class="mt-3 text-md text-gray-300"></p>
+          <p id="mediaDirector" class="mt-2 text-md text-gray-400"></p>
+          <p id="mediaAwards" class="mt-2 text-md text-gray-400"></p>
+          <p id="mediaBoxOffice" class="mt-2 text-md text-gray-400"></p>
+          <p id="mediaRuntime" class="mt-2 text-md text-gray-400"></p>
+          <p id="mediaLanguage" class="mt-2 text-md text-gray-400"></p>
+          <p id="mediaCountry" class="mt-2 text-md text-gray-400"></p>
+          <p id="mediaProduction" class="mt-2 text-md text-gray-400"></p>
+          <p id="mediaWebsite" class="mt-2 text-md text-blue-400 hover:underline"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
